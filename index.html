@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CMS</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <script async src="index.js"></script>
+  </head>
+  <body>
+    <div class="portfolio--container">
+      <h1 class="portfolio--title">Portfolio</h1>
+      <h2>Algo que quieras decir sobre tu portfolio</h2>
+      <div class="portfolio--container__results">
+        <template id="portfolio--work__template">
+          <div class="portfolio--work">
+            <img
+              class="potfolio--work__img"
+              src="./img/image1.png"
+              alt="imagen de un trabajo realizado con las tecnologias que hemos aprendido en APX"
+            />
+            <div class="portfolio--work__content">
+              <h3 class="portfolio--work__title">titulo</h3>
+              <p class="portfolio--work__description">
+                Te cuento un poco más sobre este trabajo y sobre cómo la rompí
+                en este proyecto. si el texto se hace...
+              </p>
+              <a class="portfolio--work__link" href="#">ver más</a>
+            </div>
+          </div>
+        </template>
+      </div>
+    </div>
+  </body>
+</html>

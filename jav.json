@@ -1,0 +1,237 @@
+{
+    "sys": {
+      "type": "Array"
+    },
+    "total": 3,
+    "skip": 0,
+    "limit": 100,
+    "items": [
+      {
+        "metadata": {
+          "tags": []
+        },
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "5xbk2z82bc5k"
+            }
+          },
+          "id": "4metE5r8yQ6NpnZwD9AmDo",
+          "type": "Entry",
+          "createdAt": "2021-06-07T20:20:42.401Z",
+          "updatedAt": "2021-06-07T22:33:40.927Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "revision": 2,
+          "contentType": {
+            "sys": {
+              "type": "Link",
+              "linkType": "ContentType",
+              "id": "portfolio"
+            }
+          },
+          "locale": "en-US"
+        },
+        "fields": {
+          "titulo": "un trabajo (2)",
+          "imagen": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "1fLSaahhQVxIYMDcOHiftR"
+            }
+          },
+          "descripcion": "En este caso te cuento como realice un talalksmdals laksdaois sdoas l,sdno ",
+          "url": "https://www.google.com"
+        }
+      },
+      {
+        "metadata": {
+          "tags": []
+        },
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "5xbk2z82bc5k"
+            }
+          },
+          "id": "6lVxwBvTnKKzGa62DG9igz",
+          "type": "Entry",
+          "createdAt": "2021-06-07T20:20:31.742Z",
+          "updatedAt": "2021-06-07T21:52:46.870Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "revision": 2,
+          "contentType": {
+            "sys": {
+              "type": "Link",
+              "linkType": "ContentType",
+              "id": "portfolio"
+            }
+          },
+          "locale": "en-US"
+        },
+        "fields": {
+          "titulo": "un trabajo (1)",
+          "imagen": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "mGfzrT5dXyGUrD5nUTfbM"
+            }
+          },
+          "descripcion": "En este caso te cuento como realice un talalksmdals laksdaois sdoas l,sdno ",
+          "url": "https://www.youtube.com"
+        }
+      },
+      {
+        "metadata": {
+          "tags": []
+        },
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "5xbk2z82bc5k"
+            }
+          },
+          "id": "6iJBeLk1V60rhOhWeNSE1R",
+          "type": "Entry",
+          "createdAt": "2021-06-07T20:19:53.459Z",
+          "updatedAt": "2021-06-07T20:19:53.459Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "revision": 1,
+          "contentType": {
+            "sys": {
+              "type": "Link",
+              "linkType": "ContentType",
+              "id": "portfolio"
+            }
+          },
+          "locale": "en-US"
+        },
+        "fields": {
+          "titulo": "un trabajo ",
+          "imagen": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "mGfzrT5dXyGUrD5nUTfbM"
+            }
+          },
+          "descripcion": "En este caso te cuento como realice un talalksmdals laksdaois sdoas l,sdno ",
+          "url": "https://www.google.com"
+        }
+      }
+    ],
+    "includes": {
+      "Asset": [
+        {
+          "metadata": {
+            "tags": []
+          },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "5xbk2z82bc5k"
+              }
+            },
+            "id": "1fLSaahhQVxIYMDcOHiftR",
+            "type": "Asset",
+            "createdAt": "2021-06-07T22:33:14.148Z",
+            "updatedAt": "2021-06-07T22:33:14.148Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "revision": 1,
+            "locale": "en-US"
+          },
+          "fields": {
+            "title": "foto perrito",
+            "file": {
+              "url": "//images.ctfassets.net/5xbk2z82bc5k/1fLSaahhQVxIYMDcOHiftR/d8d3d7395232e0104072df41dbf1a3dc/perrito.jpeg",
+              "details": {
+                "size": 10096,
+                "image": {
+                  "width": 275,
+                  "height": 183
+                }
+              },
+              "fileName": "perrito.jpeg",
+              "contentType": "image/jpeg"
+            }
+          }
+        },
+        {
+          "metadata": {
+            "tags": []
+          },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "5xbk2z82bc5k"
+              }
+            },
+            "id": "mGfzrT5dXyGUrD5nUTfbM",
+            "type": "Asset",
+            "createdAt": "2021-06-07T20:18:01.516Z",
+            "updatedAt": "2021-06-07T20:18:01.516Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "revision": 1,
+            "locale": "en-US"
+          },
+          "fields": {
+            "title": "foto relleno ",
+            "description": "Esta foto es utilizada como relleno de las cards requeridas en el ejercicio de CMS",
+            "file": {
+              "url": "//images.ctfassets.net/5xbk2z82bc5k/mGfzrT5dXyGUrD5nUTfbM/506073c7046bfa8c0535b2ee09467a42/image1.png",
+              "details": {
+                "size": 131184,
+                "image": {
+                  "width": 369,
+                  "height": 255
+                }
+              },
+              "fileName": "image1.png",
+              "contentType": "image/png"
+            }
+          }
+        }
+      ]
+    }
+  }

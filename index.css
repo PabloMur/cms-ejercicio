@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.portfolio--container {
+  overflow: auto;
+
+  height: 100vh;
+  text-align: center;
+
+  padding: 0 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.portfolio--container__results {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 5%;
+}
+
+.portfolio--work {
+  border: 1px solid black;
+  border-radius: 4px;
+
+  max-width: 30%;
+  margin-bottom: 5%;
+  text-align: center;
+}
+
+.potfolio--work__img {
+  max-width: 100%;
+  height: auto;
+}
+
+.portfolio--work__content {
+  padding: 12px;
+}
