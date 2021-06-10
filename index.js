@@ -26,15 +26,10 @@ function getWorks() {
     .then((data) => {
       //funcion que nos da un array con los items de cms
       const fieldsCollection = data.items.map((item) => {
-        const indice = data.items.indexOf(item);
-        const imgURL = data.includes.Asset[indice].fields.file.url;
-        const test = "http:" + imgURL;
-
         return {
           title: item.fields.titulo,
           description: item.fields.descripcion,
           url: item.fields.url,
-          //img: test,
           urlIMg: item.fields.imagen.sys.id,
         };
       });
@@ -47,7 +42,7 @@ function getWorks() {
           id: item.sys.id,
         };
       });
-
+      //funcion que busca por cada item la imagen que le corresponde por id, dentro del array de imagenes
       const devuelvePares = () => {
         let items = fieldsCollection;
         let arrayRespuesta = [];
