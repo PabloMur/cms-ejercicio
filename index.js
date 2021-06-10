@@ -24,6 +24,7 @@ function getWorks() {
       return response.json();
     })
     .then((data) => {
+      //funcion que nos da un array con los items de cms
       const fieldsCollection = data.items.map((item) => {
         const indice = data.items.indexOf(item);
         const imgURL = data.includes.Asset[indice].fields.file.url;
@@ -33,19 +34,38 @@ function getWorks() {
           title: item.fields.titulo,
           description: item.fields.descripcion,
           url: item.fields.url,
-          img: test,
+          //img: test,
+          urlIMg: item.fields.imagen.sys.id,
         };
       });
-      console.log(data);
 
-      let a = data.items[0].fields.imagen.sys.id;
-      let b = data.includes.Asset[1].sys.id;
+      //funcion que nos da un array con las imagenes de los elementos
+      const urlImgEl = data.includes.Asset.map((item) => {
+        return {
+          url: item.fields.file.url,
+          position: data.includes.Asset.indexOf(item),
+          id: item.sys.id,
+        };
+      });
 
-      if (a == b) {
-        console.log(true);
-      }
+      const devuelvePares = () => {
+        let items = fieldsCollection;
+        let arrayRespuesta = [];
 
-      return fieldsCollection;
+        for (const item of items) {
+          let arrayImagenes = urlImgEl;
+          for (const imagen of arrayImagenes) {
+            if (item.urlIMg == imagen.id) {
+              item.img = "http:" + imagen.url;
+              arrayRespuesta.push(item);
+            }
+          }
+        }
+
+        return arrayRespuesta;
+      };
+
+      return devuelvePares();
     });
 }
 
